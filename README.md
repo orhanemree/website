@@ -5,6 +5,7 @@ My personal portfolio website.
 
 ## Technologies
 * Frontend: Tailwind CSS + SvelteKit
+* Deployment: Vercel
 
 ## Thanks
 * [Simple Icons](https://simpleicons.org/)
