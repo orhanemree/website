@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply
+    bg-stone-900
+    text-stone-100
+    px-7
+    md:px-48
+}
+
+h1 {
+    @apply
+    text-3xl sm:text-4xl
+    font-bold
+    text-sky-600
+    mb-8
+}
+
+h3 {
+    @apply
+    text-2xl
+    font-bold
+    text-center
+    mb-4
+    capitalize
+}
+
+p {
+    @apply
+    text-center
+}
+
+._flex {
+    @apply
+    flex
+    items-center
+    justify-center
+}
+
+.social-icon a svg {
+    @apply
+    w-7 h-7
+    sm:w-8 sm:h-8
+    transition
+    hover:opacity-80
+}
+
+#techs li {
+    @apply
+    flex
+    items-center justify-center
+    bg-stone-800
+    rounded-md
+    aspect-square
+}
+
+#techs svg {
+    @apply
+    w-9 h-9
+    sm:w-10 sm:h-10
+}
+
+.projects {
+    @apply
+    grid
+    lg:grid-cols-3 grid-cols-1 sm:grid-cols-2
+    gap-5
+}
+
+.projects li {
+    @apply
+    bg-stone-800
+    rounded-md
+}
+
+.projects li a {
+    @apply
+    block
+    p-8
+}
+
+footer {
+    @apply
+    w-full
+    text-center
+    text-sm
+    my-4
+}
