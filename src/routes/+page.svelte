@@ -178,5 +178,5 @@
 </div>
 
 <footer>
-    Made with <span class="text-sky-600">SvelteKit</span>. Open Source on <a class="text-sky-600 underline" href="https://github.com/orhanemree/orhanemree.github.io">GitHub</a>.
+    Made with <span class="text-sky-600">SvelteKit</span>. Open Source on <a class="text-sky-600 underline" href="https://github.com/orhanemree/website">GitHub</a>.
 </footer>
